@@ -1,0 +1,29 @@
+# SimpleAntiAFK - Configuração
+# Criado por theuswq
+
+afk:
+  # Tempo máximo em segundos antes de aplicar a ação
+  max-time-seconds: 300
+  
+  # Tempo em segundos antes da punição para enviar aviso
+  warning-seconds: 30
+  
+  # Ação a ser executada: KICK ou COMMAND
+  action: KICK
+  
+  # Comando a ser executado (apenas se action for COMMAND)
+  # Use {player} como placeholder para o nome do jogador
+  command: "spawn {player}"
+  
+  # Mensagem de kick (apenas se action for KICK)
+  kick-message: "&cVocê foi kickado por ficar AFK por muito tempo!"
+
+# Mensagens
+messages:
+  warning: "&e⚠ Atenção! Você está AFK há {time} segundos. Você será {action} em breve!"
+  kicked: "&cVocê foi kickado por ficar AFK."
+  reload-success: "&aConfiguração recarregada com sucesso!"
+  reload-error: "&cErro ao recarregar configuração. Verifique o console."
+  status-online: "&aPlugin ativo. {count} jogador(es) sendo monitorado(s)."
+  status-offline: "&cPlugin desativado."
+

@@ -1,0 +1,23 @@
+name: SimpleAntiAFK
+version: ${project.version}
+main: me.theuswq.simpleantiafk.SimpleAntiAFKPlugin
+api-version: 1.20
+author: theuswq
+description: Plugin simples e profissional para detectar e punir jogadores AFK
+website: https://github.com/theuswq/simpleantiafk
+
+commands:
+  antiafk:
+    description: Comandos do SimpleAntiAFK
+    aliases: [aafk, safk]
+    permission: simpleantiafk.admin
+    usage: /<command> [reload|status]
+
+permissions:
+  simpleantiafk.admin:
+    description: Permissão para usar comandos administrativos
+    default: op
+  simpleantiafk.bypass:
+    description: Permissão para ignorar detecção de AFK
+    default: false
+
