@@ -4,7 +4,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Minecraft](https://img.shields.io/badge/minecraft-1.20+-green.svg)
-![Paper](https://img.shields.io/badge/paper-api-1.20.1-orange.svg)
+![Paper](https://img.shields.io/badge/Paper-1.20.1-orange.svg)
 ![Java](https://img.shields.io/badge/java-17-red.svg)
 
 **Um plugin simples, profissional e eficiente para detectar e punir jogadores AFK em servidores Minecraft**
