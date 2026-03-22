@@ -17,7 +17,7 @@
 
 ## 📋 Sobre
 
-O **SimpleAntiAFK** é um plugin desenvolvido para servidores Minecraft (Paper/Spigot) que detecta automaticamente jogadores que estão AFK (Away From Keyboard) e aplica ações configuráveis após um período de inatividade. 
+O **SimpleAntiAFK** é um plugin desenvolvido para servidores Minecraft (Paper/Spigot) que detecta automaticamente jogadores que estão AFK e aplica ações configuráveis após um período de inatividade. 
 
 Desenvolvido com foco em **performance**, **simplicidade** e **profissionalismo**, este plugin é ideal para servidores SMP e Survival que precisam gerenciar jogadores inativos de forma automática.
 
